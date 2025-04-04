@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HojadevidaddePaula</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1><center>HOJA DE VIDA</center></h1>
+    <div style="text-align: center;">
+      <img src="Yo.webp" alt="" width= 550px height=" 350px">
+    </div>
+      <table>
+          <tr>
+              <th> Nombre completo:</th>
+              <th>Documento de identidad:</th>
+              <th>Fecha de nacimiento:</th>
+              <th>Dirección: </th>
+              <th>Teléfono:</th>
+              <th>Correo electrónico:</th>
+          </tr>
+          <tr>
+              <td>Paula Andrea Gonzalez Rodriguez</td>
+              <td>1.234.567.890</td>
+              <td>07 de marzo del 2004</td>
+              <td>cra90a</td>
+              <td>(123) 456-7890</td>
+              <td>paula.gonzalezr@uniagustiniana.edu.co</td>
+  
+          </tr>
+      </table>
+      
+      <h2> PERFIL PROFESIONAL</h2>
+      <ol>
+        <ul>Recién egresada en Administración de Empresas con sólidos conocimientos en gestión organizacional, planeación estratégica y administración de recursos. Profesional con capacidad analítica, liderazgo y trabajo en equipo, orientada al logro de objetivos y a la mejora continua de procesos. Comprometida con el desarrollo de habilidades prácticas en el ámbito empresarial y con gran disposición para aprender y crecer profesionalmente.</ul>
+      </ol>
+      <h1>FORMACIÓN ACADÉMICA</h1>
+      <h2>Administración de Empresas</h2>
+      <ul>
+          <li>Universidad Universitaria Uniagustiniana</li>
+          <li>2024-2029</li>
+          <li>Título: Licenciada en Administración de Empresas</li>
+      </ul>   
+      <h2>Bachillerato</h2>
+      <ul>
+      <li> Colegio Nelson Mandela</li>
+      <li>2015-2020</li>
+      <li>Título: Bachiller académico</li>
+      </ul>
+      <h2>FORMACIÓN COMPLEMENTARIA</h2>
+      <ol>
+          <li>Curso de Excel Avanzado - [Uniagustiniana] (2025)</li>
+      <li>Diplomado en Gestión del Talento Humano - [Uniagustiniana] (2025)</li>
+      <li>eminario de Marketing Digital - [Uniagustiniana] (2024)</li>
+  <li>Curso de Contabilidad Básica - [Uniagustiniana] (2024)</li>
+  </ol>
+  <h2>COMPETENCIAS</h2>
+  <ol>
+      <h2>Habilidades técnicas:</h2>
+      <li>Manejo avanzado de paquete Office (Word, Excel, PowerPoint)</li>
+      <li>Gestión de proyectos</li>
+      <li>Análisis financiero básico</li>
+      <li>Conocimientos de marketing digital</li>
+  </ol>
+      <hr>
+      <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+        <div class="form-group">
+            <label for="nombre" class="required">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa">
+        </div>
+        
+        <div class="form-group">
+            <label for="email" class="required">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+        
+        <div class="form-group">
+            <label for="motivo">Motivo de contacto</label>
+            <select id="motivo" name="motivo">
+                <option value="oferta_laboral">Oferta Laboral</option>
+                <option value="entrevista">Solicitud de Entrevista</option>
+                <option value="informacion">Solicitud de Información</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+    </form> 
+</body>
+</html>
